@@ -8,7 +8,7 @@ using System.Collections.Generic;
 public class BigNum
 {
     #region CONSTRUCTOR
-    public BigNum(uint value,  uint exp)
+    public BigNum(double value,  uint exp)
     {
         this.value = value;
         this.exp = exp;
@@ -49,7 +49,7 @@ public class BigNum
         uint diff = otherExp - exp;
         if (diff > 0)
         {
-            value = (diff <= BigNumDatas.MAX_MAGNITUDE) ? value / (uint)Mathf.Pow(10, diff) : 0;
+            value = (diff <= BigNumDatas.MAX_MAGNITUDE) ? value / Mathf.Pow(10, diff) : 0;
             exp = diff;
         }
     }
@@ -110,7 +110,6 @@ public class BigNum
 
 public static class BigNumDatas
 {
-    //Make this editable through a SO (?)
     public static Dictionary<uint, string> POWER_TO_NAME { get; private set; } = new Dictionary<uint, string>()
     {
         {0, ""},
