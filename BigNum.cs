@@ -50,7 +50,7 @@ public class BigNum
         if (diff > 0)
         {
             value = (diff <= BigNumDatas.MAX_MAGNITUDE) ? value / Mathf.Pow(10, diff) : 0;
-            exp = diff;
+            exp = otherExp;
         }
     }
 
