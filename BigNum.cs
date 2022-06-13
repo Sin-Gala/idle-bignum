@@ -1,6 +1,6 @@
 /* Based on:
-- Base javascript script: https://tech.innogames.com/dealing-with-huge-numbers-in-idle-games/
-- ToString & Normalization: https://github.com/FredericRezeau/idle-bignum
+- Base javascript script: https://github.com/FredericRezeau/idle-bignum
+- ToString & Normalization: https://tech.innogames.com/dealing-with-huge-numbers-in-idle-games/
 - Notation format: https://cell-to-singularity.fandom.com/wiki/Notation
 */
 
