@@ -1,4 +1,12 @@
-# idle-bignum
+# idle-bignum - Fork ReadMe
+
+C# version added in a new branch. Tested with Unity. 
+
+Written by SinGala based on the javascript master branch.
+
+
+
+# idle-bignum - Base ReadMe
 
 idle-bignum is a very small, fast, big number library for incremental and idle games in javascript.
 
