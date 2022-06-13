@@ -100,7 +100,7 @@ public class BigNum
 
     private string GetUnit(uint magnitude)
     {
-        return (magnitude < BigNumDatas.POWER_TO_NAME.Count) ? BigNumDatas.POWER_TO_NAME[magnitude] : "???";
+        return (BigNumDatas.POWER_TO_NAME.ContainsKey(magnitude)) ? BigNumDatas.POWER_TO_NAME[magnitude] : "???";
     }
     public override string ToString()
     {
